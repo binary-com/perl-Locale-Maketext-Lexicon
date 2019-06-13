@@ -42,8 +42,6 @@ Valid localization function names are:
 
 =item loc
 
-=item localize
-
 =item x
 
 =item _
@@ -70,7 +68,7 @@ sub file_types {
     return qw( pm pl cgi );
 }
 
-my %subnames = map { $_ => 1 } qw (translate maketext gettext l loc localize x __);
+my %subnames = map { $_ => 1 } qw (translate maketext gettext l loc x __);
 
 #===================================
 sub extract {
