@@ -238,6 +238,8 @@ systems and perl source files.
 
 =item L<Locale::Maketext::Extract::Plugin::Generic>
 
+=item L<Locale::Maketext::Extract::Plugin::Null>
+
 =back
 
 =head1 AUTHORS
